@@ -34,7 +34,7 @@ int main() <--Every C programme has a Main function. By this function our code o
 
 # multiline comment in c
 
-/\*
+/*
 
 void function()
 {
@@ -46,7 +46,7 @@ y = y + x;
 printf("\n%d,%d, %f", x, y);
 
 }
-\*/
+*/
 
     printf("Hello C Programme\n Welcome to Dept of EEE");
 
@@ -75,7 +75,7 @@ int func3()
 <p>Today I talked about variables and keywords in C programming.<p/>
 <p>Let's Start<p/>
 <p>You can find all the code  on <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
-```
+
 
 What is variable?
 
