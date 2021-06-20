@@ -1,6 +1,9 @@
 # Learn C with this Repo;
 # Welcome Everyone;
-![Banner](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
+```
+![Banner](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)>
+
+```
 ```
 # it is a repo based on our c programming course 
 
@@ -14,6 +17,6 @@ University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University,
 
 ```
 <h3>Variables and Keyword</h3>
-Today I talked about variables and keywords in C programming.
-So, Let's Start. 
+Today I talked about variables and keywords in C programming. \n
+So, Let's Start. \n 
 NB: You can find all code on variable_keyword.c file.
