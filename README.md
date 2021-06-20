@@ -1,9 +1,9 @@
-# Learn C with this Repo;
-# Welcome Everyone;
-```
+# Learn C with this Repo
+# Welcome Everyone
+
 ![Banner](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)>
 
-```
+ 
 ```
 # it is a repo based on our c programming course 
 
@@ -17,6 +17,8 @@ University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University,
 
 ```
 <h3>Variables and Keyword</h3>
-Today I talked about variables and keywords in C programming. \n
-So, Let's Start. \n 
-NB: You can find all code on variable_keyword.c file.
+<hr/>
+<p>Today I talked about variables and keywords in C programming.<p/> 
+<p>Let's Start<p/> 
+<p>You can find all the code  on <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here<a/><p/> 
+ 
