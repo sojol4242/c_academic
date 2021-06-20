@@ -86,4 +86,4 @@ source: google.com
 
 
 ```
-<p>You can find all discussion and code : <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
+<p>You can find all discussion and code about variable and keywords: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
