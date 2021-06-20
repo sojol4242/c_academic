@@ -18,6 +18,7 @@ University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University,
 ```
 
 <h3>Basic Syntax and concepts of C programme</h3>
+👇
 <hr/>
  
  
@@ -33,7 +34,7 @@ int main() <--Every C programme has a Main function. By this function our code o
 // single line comment in C
 
 # multiline comment in c
-
+👇
 /*
 
 void function()
