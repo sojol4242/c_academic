@@ -75,13 +75,15 @@ int func3()
 <hr/>
 <p>Today I talked about variables and keywords in C programming.<p/>
 <p>Let's Start<p/>
-<p>You can find all the code  on <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
+
 
 
 What is variable?
 
 ```
 A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
+source: google.com
 
 
 ```
+<p>You can find all discussion and code : <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
