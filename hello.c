@@ -13,7 +13,7 @@
 
 int main()
 {
-    printf("Hello C Programme");
+    printf("Hello C Programme\n Welcome to Dept of EEE");
      
     return 0;
 }
