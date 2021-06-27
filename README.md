@@ -7,7 +7,7 @@
 ```
 # it is a repo based on our c programming course
 
-# Daily I added a basic topics of c. If anyone can access and modify this repo you can.
+# I added a basic topics of c. If anyone can access and modify this repo you can.
 
 # All code you can access topic wise in above file or folder
 
