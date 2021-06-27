@@ -82,7 +82,7 @@ What is variable?
 
 ```
 A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
-source: google.com
+source: google
 
 
 ```
