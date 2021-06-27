@@ -1,14 +1,46 @@
 #include <stdio.h>
 
-// Rules of defining variable:
+
+// keywords in C:
 /*
+Keywords are specific reserved words in C each of which has a specific feature associated with it. Almost all of the words which help us use the functionality of the C language are included in the list of keywords. So you can imagine that the list of keywords is not going to be a small one!
+
+There are a total of 44 keywords in C (C89 – 32, C99 – 5, C11 – 7): 
+
+auto        extern        short        while
+break        float        signed        _Alignas
+case        for        sizeof        _Alignof
+char        goto        static        _Atomic
+const        if        struct        _Bool
+continue    inline        switch        _Complex
+default     int        typedef        _Generic
+do         long        union        _Imaginary
+double         register    unsigned    _Noreturn
+else         restrict    void        _Static_assert
+enum         return        volatile    _Thread_local
+
+every keywords has his own special functionality. everyone has its own characteristics.
+
+*/
+
+
+
+
+// Rules of defining variable:
+
+/*
+👇
  1.  variable start with alphabate  and underscore
  2. can't start with digits
  3. it can have alphabate, underscore, digits
  4. variable shouldn't have whitespaces 
  5. before declare a variable it should have a data type in front of variable name and it should be initalized before we use it.
-
  */
+
+/* 
+
+N.B: one file has one main function. here you can see 3 main file. for learning perpose I used 3 main function for 3 examples. so please when you run your program you should check your main function. 🔏🔏🔏🔏
+*/
 
 // types of variable
 
@@ -22,7 +54,7 @@
 
 int function1()
 {
-    int x = 10; // local variable for function1;
+    int x = 10; // 👉  local variable for function1;
                 /*
     here we use this x variable only in function1 because it is a local variable. we can't use x outside of this function. if we try then it gives us an error.
     this is how local variable works
@@ -37,7 +69,9 @@ int main()
 }
 
 // global variable
+ 
 /*
+👇
 A variable that is declared outside the function or block is called a global variable. 
 It is declared at the starting of program. It is available to all the functions. 
 */
@@ -66,7 +100,7 @@ int main()
 
 // static  variable
 
-/*
+/*👇
 A variable that retains its value between multiple function calls is known as static variable. 
 It is declared with the static keyword. 
 */
@@ -91,26 +125,26 @@ int main()
 
 
 // 4. Autometic variables
-/*
+/*👇
 Which variables declared inside the block, are automatic variables by default. We 
 can explicitly declare an automatic variable using auto keyword.
 NB: Automatic variables are similar as 
 local variables.
 so i don't give this type  of variable's example;
-we move on;
+we move on;🔏🔏🔏🔏
 
 */
 
-/* 5. External variable can be shared between multiple C files.We can declare external variable using extern keyword.
+/*👇 
+5. External variable can be shared between multiple C files.We can declare external variable using extern keyword.
 like you have  single.c and double.c files. if you declared a variable in single.c as 
 extern int x=10; 
 you can use this variable to double.h file also single.h file.
-
-it is a kind of a vast version of global variable.
-
-
+it is a kind of a wider version of global variable.
 
 */
+
+// so guys here is from my side for a simple discussion of variables in C language. Thanks!
 
 
 
