@@ -23,7 +23,7 @@ every keywords has his own special functionality. everyone has its own character
 
 */
 
-
+// variable in C
 
 
 // Rules of defining variable:
