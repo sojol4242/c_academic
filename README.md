@@ -34,8 +34,9 @@ int main() <--Every C programme has a Main function. By this function our code o
 // single line comment in C
 
 # multiline comment in c
+
 👇
-/*
+/\*
 
 void function()
 {
@@ -47,7 +48,7 @@ y = y + x;
 printf("\n%d,%d, %f", x, y);
 
 }
-*/
+\*/
 
     printf("Hello C Programme\n Welcome to Dept of EEE");
 
@@ -73,13 +74,13 @@ int func3()
 ```
 <h3>Variables and Keywords</h3>
 <hr/>
- 
+
 What is variable?
 
 ```
+
 A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
 source: https://www.google.com/
-
 
 ```
 <p>You can find all discussion and code about variable and keywords: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ <a/><p/>
@@ -87,7 +88,7 @@ source: https://www.google.com/
 
 <h3>Operator</h3>
 <hr/>
- 
+
 # What is Operator?
 
 ```
@@ -95,37 +96,66 @@ source: https://www.google.com/
 Operators are the foundation of any programming language. Thus the functionality of C/C++ programming language is incomplete without the use of operators. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands.
 source: https://www.geeksforgeeks.org/operators-c-c/
 
-
 ```
 # Types of operators
 ```
+
 A few types of operators available in C language eventually all are exists in other languages so.
+
 1. Arithmetic Operators.
- [ discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩]
 
-2. Logical Operators.
- discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-3. Relational Operators.
- discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-4. Bitwise Operators. 
-discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-5. Assignment Operators. 
-discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-6. sizeof Operators. 
-discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-7. Comma Operators. 
-discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
-
-8. Conditional operators. 
-discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩ 
-
-That's all from my side about operators 😃 
+```
+ [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩]
 
 ```
 
- 
+2.  Logical Operators.
+
+```
+ discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+```
+
+```
+
+
+```
+
+3.  Relational Operators.
+
+```
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+
+```
+
+4. Bitwise Operators.
+
+```
+
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+```
+
+5.  Assignment Operators.
+
+```
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+```
+
+6. sizeof Operators.
+
+```
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+```
+
+7. Comma Operators.
+
+```
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+```
+
+8. Conditional operators.
+
+```
+discussion and code about Operator: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩
+
+# That's all from my side about operators 😃
+
