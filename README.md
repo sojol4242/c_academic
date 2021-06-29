@@ -7,7 +7,7 @@
 ```
 # it is a repo based on our c programming course
 
-# Daily I added a basic topics of c. If anyone can access and modify this repo you can.
+# I added a basic topics of c. If anyone can access and modify this repo you can.
 
 # All code you can access topic wise in above file or folder
 
@@ -88,7 +88,7 @@ source: https://www.google.com/
 <h3>Operator</h3>
 <hr/>
  
-What is Operator?
+# What is Operator?
 
 ```
 
@@ -97,6 +97,7 @@ source: https://www.geeksforgeeks.org/operators-c-c/
 
 
 ```
+# Types of operators
 ```
 A few types of operators available in C language eventually all are exists in other languages so.
 1. Arithmetic Operators.
