@@ -98,9 +98,8 @@ source: https://www.geeksforgeeks.org/operators-c-c/
 
 ```
 # Types of operators
-```
-
 A few types of operators available in C language eventually all are exists in other languages so.
+```
 
 1. Arithmetic Operators.
 
@@ -159,3 +158,4 @@ discussion and code about Operator: <a href="https://github.com/sojol4242/c_acad
 
 # That's all from my side about operators 😃
 
+```
