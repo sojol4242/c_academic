@@ -111,7 +111,7 @@ A few types of operators available in C language eventually all are exists in ot
 2. Logical Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+<!-- [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>] -->
 
 
 
@@ -121,38 +121,38 @@ A few types of operators available in C language eventually all are exists in ot
 3.  Relational Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+<!-- [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>] -->
 
 ```
 
 4. Bitwise Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+<!-- [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>] -->
 ```
 
 5.  Assignment Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/assignment_operator.c"> Here⏩</a>]
 ```
 
 6.  Conditional operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/conditional_operators.c"> Here⏩</a>]
 ```
 
 7. Comma Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+<!-- [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>] -->
 ```
 
 8.  sizeof Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
+<!-- [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>] -->
 
 # That's all from my side about operators 😃
 
