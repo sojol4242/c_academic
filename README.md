@@ -158,7 +158,7 @@ etc
 
 ```
 
-8. Comma Operators
+8. Sizeof Operators
 
 ```
 [ discussion and code about sizeOf Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/sizeOf.c"> Here⏩</a>]
@@ -166,4 +166,4 @@ etc
 # That's all from my side about operators 😃
 
 
-```
+ 
