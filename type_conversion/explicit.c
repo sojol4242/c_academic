@@ -9,6 +9,6 @@ int main()
     // y is explicitly converted to float
     float z = x + x / (float)y;
 
-    printf("z = %f",  z);
+    printf("z = %.3f",  z);
     return 0;
 }

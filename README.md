@@ -108,7 +108,7 @@ A few types of operators available in C language eventually all are exists in ot
 
 ```
 
-2.  Logical Operators.
+2. Logical Operators.
 
 ```
 [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
@@ -137,7 +137,7 @@ A few types of operators available in C language eventually all are exists in ot
 [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
 ```
 
-6. sizeof Operators.
+6.  Conditional operators.
 
 ```
 [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
@@ -149,7 +149,7 @@ A few types of operators available in C language eventually all are exists in ot
 [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
 ```
 
-8. Conditional operators.
+8.  sizeof Operators.
 
 ```
 [ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/arithmetic_operator.c"> Here⏩</a>]
