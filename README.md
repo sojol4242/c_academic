@@ -150,11 +150,11 @@ A few types of operators available in C language eventually all are exists in ot
 
 7. Comma Operators: Comma operators are used to link related expressions together. For example:
 
-```
+ 
 int a, b=70, c=33;
 char first,last;
 etc
-```
+ 
 
 ```
 ```
@@ -167,4 +167,4 @@ etc
 
 # That's all from my side about operators 😃
 
-```
+ 
