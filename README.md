@@ -142,7 +142,7 @@ A few types of operators available in C language eventually all are exists in ot
 6.  Conditional operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/conditinal_operators.c"> Here⏩</a>]
+[ discussion and code about conditional Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/conditinal_operators.c"> Here⏩</a>]
 
 
 
@@ -150,21 +150,20 @@ A few types of operators available in C language eventually all are exists in ot
 
 7. Comma Operators: Comma operators are used to link related expressions together. For example:
 
- 
 int a, b=70, c=33;
 char first,last;
 etc
- 
 
 ```
+
 ```
 
 8. Comma Operators
- 
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/sizeOf.c"> Here⏩</a>]
+[ discussion and code about sizeOf Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/sizeOf.c"> Here⏩</a>]
 
 # That's all from my side about operators 😃
 
- 
+
+```
