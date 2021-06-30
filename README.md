@@ -111,7 +111,7 @@ A few types of operators available in C language eventually all are exists in ot
 2. Logical Operators.
 
 ```
-[ discussion and code about arithmetic Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/logical_operator.c"> Here⏩</a>]
+[ discussion and code about Logical Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/logical_operator.c"> Here⏩</a>]
 
 
 
