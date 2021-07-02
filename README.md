@@ -165,5 +165,9 @@ etc
 
 # That's all from my side about operators 😃
 
+<hr/>
 
+# Data_Types in C Programming
+👇
+[ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
  
