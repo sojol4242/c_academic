@@ -1,19 +1,23 @@
 #include <stdio.h>
- 
-/* void function()
-{
-    int x = 20;        //local variable
-    static int y = 30; //static variable
-    auto z = 4;
-    x = x + 10;
-    y = y + x;
-    printf("\n%d,%d, %f", x, y);
 
-}
-*/
 int main()
 {
-    printf("Hello C Programme\n Welcome to Dept of EEE");
-     
+    printf("Hello C Programme\nWelcome to Dept of EEE \n");
+     int c;
+    printf("Enter a character");
+    /*
+        Take a character as input and
+        store it in variable c
+    */
+    c = getchar();
+    /*
+        display the character stored
+        in variable c
+    */
+    putchar(c);
+    // int x=100;
+    // printf("X= %d\n",10+ x++);
+    // printf("X= %d\n",10+ ++x);
+
     return 0;
 }
