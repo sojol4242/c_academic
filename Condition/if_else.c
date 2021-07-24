@@ -22,6 +22,7 @@ if(expression){
 //code to be executed if condition is false  
 }  
 } */
+
 /*
 If else-if ladder Statement
 The if-else-if ladder statement is an extension to the if-else statement. It is used in the scenario where there are multiple cases to be performed for different conditions. In if-else-if ladder statement, if a condition is true then the statements defined in the if block will be executed, otherwise if some other condition is true then the statements defined in the else-if block will be executed, at the last if none of the condition is true then the statements defined in the else block will be executed. There are multiple else-if blocks possible. It is similar to the switch case statement where the default is executed instead of else block if none of the cases is matched.
@@ -46,26 +47,99 @@ else{
 } 
  */
 
-
 // finding a number is even or odd :
 
+// int main(){
+
+//  int number
+//  printf("Enter a number: \n");
+//  scanf("%d\n", &number);
+
+//   if (number % 2 == 0){
+//         printf("%d is even number", number);
+//     }
+//     else{
+//         printf("%d is odd number", number);
+//     }
+//     return 0;
+// }
 
 
-int main()
-{
-    int number = -16;
-    
-    if (number == 0)
-    {
-        printf("%d is non-negative number", number);
+int main(){
+      int a,b,c,d;
+    printf("Enter 4 number \n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+ 
+
+  if(a!=b&&b!=c&&c!=d){
+        if(a>b && a>c && a>d){
+        printf("%d is largest",a);
+
     }
-    else if (number % 2 == 0)
-    {
-        printf("%d is even number", number);
+    else if(b>a && b>c && b>d){
+        printf("%d is largest",b);
+
     }
-    else
-    {
-        printf("%d is odd number", number);
+    else if(c>a && c>d && c>b){
+        printf("%d is largest",c);
+
     }
-    return 0;
+    else if(d>a && d>b && d>c){
+        printf("%d is largest",d);
+
+    }
+  }
+  else{
+      printf("some values are equal");
+  }
 }
+
+// int main(){
+//     int unit=20;
+//     float amount, total_amount, sur_charge;
+//     // printf("Enter total units consumed: ");
+//     // scanf("%d", &unit);
+
+ 
+//     if(unit >= 0 && unit <=200){
+//         amount = unit * 5.72;
+//         // printf("%.2f\n", amount);
+//     }
+//     else if(unit >= 201 && unit <=300){
+//         amount = 1144+(unit-200)* 6.34;
+//         // printf("%.2f\n", amount);
+
+//     }
+    
+//     else{
+//         amount = 748+(unit-300)*11.46;
+//     //    printf("%.2f\n", amount);
+
+//     }
+
+    
+//     sur_charge = amount * 0.20;
+//     total_amount  = amount + sur_charge;
+//         // printf("%.2f\n",     total_amount);
+
+
+//     printf("Electricity Bill = %.2f TK", total_amount);
+
+//     return 0;
+// }
+
+// int main()
+// {
+//     int year=2005;
+ 
+//     if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0))
+//     {
+//         printf("LEAP YEAR");
+//     }
+//     else
+//     {
+//         printf("COMMON YEAR");
+//     }
+
+//     return 0;
+// }
