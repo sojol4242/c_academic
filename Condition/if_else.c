@@ -65,7 +65,7 @@ else{
 // }
 
  
-
+/*
 int main(){
     int unit;
     float amount, total_amount, sur_charge;
@@ -99,19 +99,19 @@ int main(){
 
     return 0;
 }
-
-// int main()
-// {
-//     int year=2005;
+*/
+int main()
+{
+    int year=2005;
  
-//     if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0))
-//     {
-//         printf("LEAP YEAR");
-//     }
-//     else
-//     {
-//         printf("COMMON YEAR");
-//     }
+    if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0))
+    {
+        printf("LEAP YEAR");
+    }
+    else
+    {
+        printf("COMMON YEAR");
+    }
 
-//     return 0;
-// }
+    return 0;
+}
