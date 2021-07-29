@@ -1,8 +1,8 @@
 # Learn C with this Repo
 
-# Welcome Everyone
+ Welcome Everyone
 
-![Banner](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
+![](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
 
 ```
 # it is a repo based on our c programming course
