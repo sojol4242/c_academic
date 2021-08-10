@@ -29,9 +29,53 @@ In switch I gave an expression, you can give variable also. I gave num+2, where 
 Break statement in Switch Case:
 Break statements are useful when you want your program-flow to come out of the switch body. Whenever a break statement is encountered in the switch body, the control comes out of the switch case statement.
 */
-int main()
-{
+int main(){
 
+  char selection;
+  int quantity, total;
+
+  printf("B=BURGER\nF=FRENCH FRY\nP=PIZZA\nS=SANDWICHES or select any character for nothing\n");
+  printf("Select Your Snacks\n");
+  scanf("%c", &selection);
+  printf("Quantity(In integer number) \n");
+  scanf("%d", &quantity);
+
+  switch (selection)
+  {
+  case 'B':
+    printf("Your Select Food is %c = Burger\n", selection);
+    printf("Single price 230\n");
+    printf("Quantity %d\n", quantity);
+    total = quantity * 230;
+    printf("Total %d", total);
+    break;
+  case 'F':
+    printf("Your Select Food is %c = French Fries\n", selection);
+    printf("Single price 43\n");
+    printf("Quantity %d\n", quantity);
+    total = quantity * 43;
+    printf("Total %d", total);
+    break;
+  case 'P':
+    printf("Your Select Food is %c = Pizza\n", selection);
+    printf("Single price 450\n");
+    printf("Quantity %d\n", quantity);
+    total = quantity * 450;
+    printf("Total %d", total);
+    break;
+  case 'S':
+    printf("Your Select Food is %c=SANDWICHES\n", selection);
+    printf("Single price 130\n");
+    printf("Quantity %d\n", quantity);
+    total = quantity * 130;
+     printf("Total %d", total);
+    break;
+  default:
+    printf("None of this\n please select some snacks");
+  }
+
+  return 0;
+}
   // float a,b;
   // char op;
   // printf("Enter operator you want like (+, -, *, /):\n");
@@ -91,46 +135,3 @@ int main()
   // x= n*150;
   // printf(“Burger=Rs %d”,x);
   // }
-  char selection;
-  int quantity, total;
-
-  printf("B=BURGER\nF=FRENCH FRY\nP=PIZZA\nS=SANDWICHES\n");
-  printf("Select Your Snacks\n");
-  scanf("%c", &selection);
-  printf("Quantity(In integer number) \n");
-  scanf("%d", &quantity);
-
-  switch (selection)
-  {
-  case 'B':
-    printf("Your Select Food is %c = Burger\n", selection);
-    printf("Single price 230\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 230;
-    printf("Total %d", total);
-    break;
-  case 'F':
-    printf("Your Select Food is %c = French Fries\n", selection);
-    printf("Single price 43\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 43;
-    printf("Total %d", total);
-    break;
-  case 'P':
-    printf("Your Select Food is %c = Pizza\n", selection);
-    printf("Single price 450\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 450;
-    printf("Total %d", total);
-    break;
-  case 'S':
-    printf("Your Select Food is %c=SANDWICHES\n", selection);
-    printf("Single price 130\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 130;
-     printf("Total %d", total);
-    break;
-  default:
-    printf("None of this\n please select some snacks");
-  }
-}

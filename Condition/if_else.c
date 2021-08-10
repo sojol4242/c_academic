@@ -64,54 +64,60 @@ else{
 //     return 0;
 // }
 
- 
-/*
-int main(){
-    int unit;
-    float amount, total_amount, sur_charge;
-    printf("Enter total units consumed: ");
-    scanf("%d", &unit);
 
- 
-    if(unit >= 0 && unit <=200){
+
+// electricity bill finding;
+
+int main(){
+    float unit;
+    float amount, total_amount, sur_charge, meter_charge;
+    printf("Enter total units consumed: \n");
+    scanf("%f", &unit);
+
+    if (unit >= 0 && unit <= 200){
+
         amount = unit * 5.72;
         // printf("%.2f\n", amount);
     }
-    else if(unit >= 201 && unit <=300){
-        amount = 1144+(unit-200)* 6.34;
+    else if (unit >= 201 && unit <= 300){
+
+        amount = 1144 + (unit - 200) * 6.34;
         // printf("%.2f\n", amount);
-
-    }
-    
-    else{
-        amount = 748+(unit-300)*11.46;
-    //    printf("%.2f\n", amount);
-
     }
 
-    
+    else {
+
+        amount = 748 + (unit - 300) * 11.46;
+        //    printf("%.2f\n", amount);
+    }
+
     sur_charge = amount * 0.20;
-    total_amount  = amount + sur_charge;
-        // printf("%.2f\n",     total_amount);
+    meter_charge = amount * .10;
+    total_amount = amount + sur_charge + meter_charge;
+    // printf("%.2f\n",     total_amount);
 
-
-    printf("Electricity Bill = %.2f TK", total_amount);
-
-    return 0;
-}
-*/
-int main()
-{
-    int year=2005;
- 
-    if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0))
-    {
-        printf("LEAP YEAR");
-    }
-    else
-    {
-        printf("COMMON YEAR");
-    }
+    printf("Electricity Bill = %.3f TK", total_amount);
 
     return 0;
 }
+
+
+// int main(){
+
+//     int year;
+//     printf("Enter a year\n");
+//     scanf("%d",&year);
+
+//     if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0)){
+
+//         printf("%d is LEAP YEAR",year);
+
+//     }
+//     else{
+        
+//         printf("%d is COMMON YEAR",year);
+    
+//     }
+
+//     return 0;
+// }
