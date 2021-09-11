@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
 C for Loop
 In this tutorial, you will learn to create for loop in C programming with the help of examples.
@@ -24,24 +25,22 @@ Then, the test expression is evaluated. If the test expression is evaluated to f
 However, if the test expression is evaluated to true, statements inside the body of the for loop are executed, and the update expression is updated.
 Again the test expression is evaluated.
 */
-#include <stdio.h>
- 
-int main(){
-   int i,j,rows;
-   printf("Input number of rows : ");
-   scanf("%d",&rows);
-   for(i=1;i<=rows;i++){
-    for(j=1;j<=i;j++)	
-       printf("*");
-    printf("\n");
-   }
- 
-}
 
+// int main()
+// {
+//    int i, j, rows;
+//    printf("Input number of rows : ");
+//    scanf("%d", &rows);
+//    for (i = 1; i <= rows; i++)
+//    {
+//       for (j = 1; j <= i; j++)
+//          printf("*");
+//       printf("\n");
+//    }
+// }
 
 // Write a program in C to display the n terms of harmonic series and their sum. Go to the editor
 // 1 + 1/2 + 1/3 + 1/4 + 1/5 ... 1/n terms
-
 
 // int main()
 //    int i,n;
@@ -65,3 +64,31 @@ int main(){
 //         printf("\nSum of Series upto %d terms : %f \n",n,s);
 // return 0;
 // }
+
+// printing Alphabate:
+
+int main()
+{
+
+   char c;
+   printf("Capital letter \n");
+   for (int i = 65; i < 123; i++)
+   {
+      if (i >= 65 && i <= 92)
+      {
+
+         printf("%c \t", i);
+      }
+      else if (i >= 97 && i <= 123)
+      {
+         printf("%c \t", i);
+      }
+   }
+   printf("\n");
+   //  printf("Small letter \n");
+   // for (int i = 97; i < 123; i++)
+   // {
+
+   // }
+   return 0;
+}

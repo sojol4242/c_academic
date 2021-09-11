@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 // Array is a basic data structure for storing data in one dimension to two dimension. 👇
 
 /* state: Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc. ...The array is the simplest data structure where each data element can be randomly accessed by using its index number. C array is beneficial if you have to store similar elements.
@@ -6,7 +6,6 @@ There are some types of arrays exists:
 1. One Dimensional Arrays
 2. Multi-dimensional arrays(2D,3D etc.) 
 src : google */
-
 
 /*
 basic of array:
@@ -30,7 +29,6 @@ printf("%d",mark[2]); // array index start with 0 ;
 
 // Example 1 👇;
 
-
 /*
 int main(){
 int arr[]={1,2,3,5}; // size of array is 4
@@ -48,8 +46,41 @@ printf("How to access all array element: \n");
 
 }
 */
-int main(){
+//    example;
+/*
+int main()
+{
+    int marks[10], i, n, sum = 0;
+    float  average,total;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for (i = 0; i < n; ++i)
+    {
+        printf("Enter Subject Number %d: \n", i + 1);
+        scanf("%d", &marks[i]);
+
+        // adding integers entered by the user to the sum variable
+        sum += marks[i];
+     
+    }
+
+    average = sum / n;
+    total=n*100;
+    float per=(sum/total )*100;
+
+    printf("Total Mark = %f\n", sum);
+    printf("Your Average Mark= %f\n", average);
+    printf("You Got %.3f percentage\n", per);
   
-
 }
-
+*/
+# include <math.h>
+# define MAXSIZE 100;
+ int main(int argc, char const *argv[])
+ {
+     printf("Hello World");
+     return 0;
+ }
+ 
