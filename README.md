@@ -188,21 +188,21 @@ etc
 👇
 [ discussion and code about Array: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
 <!-- string -->
+ 
 # Data_Types in C Programming
 👇
 [ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+ 
 <!-- pointer -->
 # Pointer in C Programming
 👇
 [ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+ 
 <!-- structure union -->
 # structure union in C Programming
 👇
-[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&unon.c"> Here⏩</a>]
-<!-- user define data types -->
-# User define data types in C Programming
-👇
-[ discussion and code about User define data types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&union.c"> Here⏩</a>]
+ 
 <!-- file structure -->
 # File structure in C Programming
 👇
