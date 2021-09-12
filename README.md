@@ -198,7 +198,7 @@ etc
 <!-- structure union -->
 # structure union in C Programming
 👇
-[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&unon.c"> Here⏩</a>]
 <!-- user define data types -->
 # User define data types in C Programming
 👇
@@ -207,4 +207,3 @@ etc
 # File structure in C Programming
 👇
 [ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
-```
