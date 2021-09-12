@@ -196,14 +196,14 @@ etc
 <!-- pointer -->
 # Pointer in C Programming
 👇
-[ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/blob/sojol/pointer.c"> Here⏩</a>]
  
 <!-- structure union -->
 # structure union in C Programming
 👇
-[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&union.c"> Here⏩</a>]
+[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&union"> Here⏩</a>]
  
 <!-- file structure -->
 # File structure in C Programming
 👇
-[ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/blob/sojol/file_structure.c"> Here⏩</a>]
