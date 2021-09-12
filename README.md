@@ -1,10 +1,10 @@
  # Learn C with this Repo
 
- ## Welcome Everyone
+ ## `Welcome Everyone`
 
 ![](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
 
-```
+ 
 ### `It is a repo based on our c programming course`
 
 ### `Here we will able to learn basic topics of c. If anyone can access and modify this repo you can.`
@@ -15,15 +15,14 @@
 ### `Department: Electrical And Electronic Engineering`
 ### `University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj-8100, Dhaka, Bangladesh.`
 
-```
+ 
 
-<h3>Basic Syntax and concepts of C programme</h3>
+## `<h3>Basic Syntax and concepts of C programme</h3>`
 👇
 <hr/>
- 
- 
+  
 ```
- #include <stdio.h> 👉 This is header files. here we found the build in files in C
+#include <stdio.h> 👉 This is header files. here we found the build in files in C
 
 int main() <--Every C programme has a Main function. By this function our code or programme will be run-->
 
@@ -163,47 +162,47 @@ etc
 ```
 [ discussion and code about sizeOf Operator: <a href="https://github.com/sojol4242/c_academic/blob/sojol/operators/sizeOf.c"> Here⏩</a>]
 
-# That's all from my side about operators 😃
+### `That's all from my side about operators 😃`
 
 <hr/>
 
-# Data_Types in C Programming
+## Data_Types in C Programming
 👇
 [ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
 
- <!--condition-->
- # Condition in C Programming
+<!--condition-->
+## Condition in C Programming
 👇
 [ discussion and code about Condition: <a href="https://github.com/sojol4242/c_academic/blob/sojol/Condition"> Here⏩</a>]
 <!-- loop -->
-# Loops in C Programming
+## Loops in C Programming
 👇
 [ discussion and code about Loops: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
 <!-- function -->
-# Function in C Programming
+## Function in C Programming
 👇
 [ discussion and code about Function: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
 <!-- array -->
-# Array in C Programming
+## Array in C Programming
 👇
 [ discussion and code about Array: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
 <!-- string -->
  
-# Data_Types in C Programming
+## Data_Types in C Programming
 👇
 [ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
  
 <!-- pointer -->
-# Pointer in C Programming
+## Pointer in C Programming
 👇
 [ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/blob/sojol/pointer.c"> Here⏩</a>]
  
 <!-- structure union -->
-# structure union in C Programming
+## structure union in C Programming
 👇
 [ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&union"> Here⏩</a>]
  
 <!-- file structure -->
-# File structure in C Programming
+## File structure in C Programming
 👇
 [ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/blob/sojol/file_structure.c"> Here⏩</a>]
