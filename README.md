@@ -1,19 +1,19 @@
-# Learn C with this Repo
+ # Learn C with this Repo
 
- Welcome Everyone
+ ## Welcome Everyone
 
 ![](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
 
 ```
-# it is a repo based on our c programming course
+### `It is a repo based on our c programming course`
 
-# here we will able to learn basic topics of c. If anyone can access and modify this repo you can.
+### `Here we will able to learn basic topics of c. If anyone can access and modify this repo you can.`
 
-# All code you can access topic wise in above file or folder
+### `All code you can access topic wise in above file or folder`
 
-repo created by [@Md Moniruzzaman Sojol]
-Department: Electrical And Electronic Engineering
-University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj-8100, Dhaka, Bangladesh.
+### `@created by [@Md Moniruzzaman Sojol]`
+### `Department: Electrical And Electronic Engineering`
+### `University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj-8100, Dhaka, Bangladesh.`
 
 ```
 
