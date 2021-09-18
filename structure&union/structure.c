@@ -54,12 +54,12 @@ What if you need to store information of more than one person? Now, you need to 
 
 A better approach would be to have a collection of all related information under a single name Person structure and use it for every person.
 */
-
+ 
 //  another example: 
 #include <stdio.h>
- 
+#include <string.h>
 struct employee {
-    char name[100];
+ char name[100];
  int age;
  float salary;
  char department[50];
