@@ -1,10 +1,9 @@
- # Learn C with this Repo
+# Learn C with this Repo
 
- ## `Welcome Everyone`
+## `Welcome Everyone`
 
 ![](https://i.ibb.co/T8LGPp0/17288-c-programming-animation.gif)
 
- 
 ### It is a repo based on our c programming course
 
 ### Here we will able to learn basic topics of c. If anyone can access and modify this repo you can.
@@ -12,16 +11,18 @@
 ### All code you can access topic wise in above file or folder
 
 ### @created by [@Md Moniruzzaman Sojol]
+
 ### Department: Electrical And Electronic Engineering
+
 ### University: Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj-8100, Dhaka, Bangladesh.
- 
- 
 
 ## `Basic Syntax and concepts of C programme`
+
 👇
+
 <hr/>
   
-```
+```code
 #include <stdio.h> 👉 This is header files. here we found the build in files in C
 
 int main() <--Every C programme has a Main function. By this function our code or programme will be run-->
@@ -35,7 +36,7 @@ int main() <--Every C programme has a Main function. By this function our code o
 # multiline comment in c
 
 👇
-/\*
+/*
 
 void function()
 {
@@ -47,7 +48,7 @@ y = y + x;
 printf("\n%d,%d, %f", x, y);
 
 }
-\*/
+*/
 
     printf("Hello C Programme\n Welcome to Dept of EEE");
 
@@ -166,6 +167,9 @@ etc
 
 <hr/>
 
+## Variables and keyword in C Programming
+👇
+[ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/tree/sojol/variable%20and%20keyword"> Here⏩</a>]
 ## Data_Types in C Programming
 👇
 [ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
@@ -173,36 +177,40 @@ etc
 <!--condition-->
 ## Condition in C Programming
 👇
-[ discussion and code about Condition: <a href="https://github.com/sojol4242/c_academic/blob/sojol/Condition"> Here⏩</a>]
+[ discussion and code about Condition: <a href="https://github.com/sojol4242/c_academic/tree/sojol/Condition"> Here⏩</a>]
 <!-- loop -->
 ## Loops in C Programming
 👇
-[ discussion and code about Loops: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about Loops: <a href="https://github.com/sojol4242/c_academic/tree/sojol/loops"> Here⏩</a>]
 <!-- function -->
 ## Function in C Programming
 👇
-[ discussion and code about Function: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about Function: <a href="https://github.com/sojol4242/c_academic/blob/sojol/function"> Here⏩</a>]
 <!-- array -->
 ## Array in C Programming
 👇
-[ discussion and code about Array: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
+[ discussion and code about Array: <a href="https://github.com/sojol4242/c_academic/tree/sojol/array"> Here⏩</a>]
 <!-- string -->
- 
+
 ## Data_Types in C Programming
 👇
-[ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/blob/sojol/data_types.c"> Here⏩</a>]
- 
+[ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/tree/sojol/data_types"> Here⏩</a>]
+## Operators in C Programming
+👇
+[ discussion and code about Data_Types: <a href="https://github.com/sojol4242/c_academic/tree/sojol/operators"> Here⏩</a>]
+
 <!-- pointer -->
 ## Pointer in C Programming
 👇
-[ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/blob/sojol/pointer.c"> Here⏩</a>]
- 
+[ discussion and code about Pointer: <a href="https://github.com/sojol4242/c_academic/tree/sojol/pointer"> Here⏩</a>]
+
 <!-- structure union -->
 ## structure union in C Programming
 👇
-[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/blob/sojol/structure&union"> Here⏩</a>]
- 
+[ discussion and code about structure union: <a href="https://github.com/sojol4242/c_academic/tree/sojol/structure%26union"> Here⏩</a>]
+
 <!-- file structure -->
 ## File structure in C Programming
 👇
-[ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/blob/sojol/file_structure.c"> Here⏩</a>]
+[ discussion and code about File structure: <a href="https://github.com/sojol4242/c_academic/tree/sojol/fileInC"> Here⏩</a>]
+```
