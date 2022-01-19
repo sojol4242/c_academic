@@ -15,9 +15,9 @@ const        if        struct        _Bool
 continue    inline        switch        _Complex
 default     int        typedef        _Generic
 do         long        union        _Imaginary
-double         register    unsigned    _Noreturn
-else         restrict    void        _Static_assert
-enum         return        volatile    _Thread_local
+double     register    unsigned    _Noreturn
+else       restrict    void        _Static_assert
+enum       return        volatile    _Thread_local
 
 every keywords has his own special functionality. everyone has its own characteristics.
 
@@ -54,7 +54,8 @@ N.B: one file has one main function. here you can see 3 main file. for learning 
 
 int function1()
 {
-    int x = 10; // 👉  local variable for function1;
+    int x; // 👉 declare local variable for function1;
+    x = 1;// initialization
                 /*
     here we use this x variable only in function1 because it is a local variable. we can't use x outside of this function. if we try then it gives us an error.
     this is how local variable works
@@ -75,28 +76,28 @@ int main()
 A variable that is declared outside the function or block is called a global variable. 
 It is declared at the starting of program. It is available to all the functions. 
 */
-int x = 10; // global variable for function1;
+// int x = 10; // global variable for function1;
 
-int function1()
-{
+// int function1()
+// {
 
-    printf("from function1 👉 %d\n", x);
-}
-int function2()
-{
+//     printf("from function1 👉 %d\n", x);
+// }
+// int function2()
+// {
 
-    printf("from function1 👉 %d\n", x);
-}
+//     printf("from function1 👉 %d\n", x);
+// }
 
-int main()
-{
-    function1();
-    function2();
-    printf("from main 👉 %d\n", x);
+// int main()
+// {
+//     function1();
+//     function2();
+//     printf("from main 👉 %d\n", x);
 
-    // we can use x any where in this file. that's why it is called global variable
-    return 0;
-}
+//     // we can use x any where in this file. that's why it is called global variable
+//     return 0;
+// }
 
 // static  variable
 
@@ -105,22 +106,22 @@ A variable that retains its value between multiple function calls is known as st
 It is declared with the static keyword. 
 */
 
-int function1()
-{
-    static int x = 10;
-    x = x + 10;
+// int function1()
+// {
+//     static int x = 10;
+//     x = x + 10;
 
-    printf("%d\n", x);
-}
+//     printf("%d\n", x);
+// }
 
-int main()
-{
-    function1();
-    function1();
-    function1();
-    //  static variable will print the incremented value in each function call. that means static variable will change after call this function and assigned new increment value
-    return 0;
-}
+// int main()
+// {
+//     function1();
+//     function1();
+//     function1();
+//     //  static variable will print the incremented value in each function call. that means static variable will change after call this function and assigned new increment value
+//     return 0;
+// }
 
 
 
@@ -144,7 +145,7 @@ it is a kind of a wider version of global variable.
 
 */
 
-// so guys here is from my side for a simple discussion of variables in C language. Thanks!
+// so guys here is from my side for a simple discussion of variables and keywords in C language. Thanks!
 
 
 
