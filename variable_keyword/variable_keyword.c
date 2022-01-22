@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 // keywords in C:
 /*
 Keywords are specific reserved words in C each of which has a specific feature associated with it. Almost all of the words which help us use the functionality of the C language are included in the list of keywords. So you can imagine that the list of keywords is not going to be a small one!
@@ -24,7 +23,6 @@ every keywords has his own special functionality. everyone has its own character
 */
 
 // variable in C
-
 
 // Rules of defining variable:
 
@@ -54,9 +52,10 @@ N.B: one file has one main function. here you can see 3 main file. for learning 
 
 int function1()
 {
+     
     int x; // 👉 declare local variable for function1;
-    x = 1;// initialization
-                /*
+    x = 1; // initialization
+           /*
     here we use this x variable only in function1 because it is a local variable. we can't use x outside of this function. if we try then it gives us an error.
     this is how local variable works
     */
@@ -65,12 +64,17 @@ int function1()
 
 int main()
 {
-    function1();
+    // function1();
+    int x = 10;        //local variable
+    static int y = 10; //static variable
+    x = x + 1;
+    y = y + 1;
+    printf("%d \n,%d", x, y);
     return 0;
 }
 
 // global variable
- 
+
 /*
 👇
 A variable that is declared outside the function or block is called a global variable. 
@@ -123,8 +127,6 @@ It is declared with the static keyword.
 //     return 0;
 // }
 
-
-
 // 4. Autometic variables
 /*👇
 Which variables declared inside the block, are automatic variables by default. We 
@@ -146,8 +148,3 @@ it is a kind of a wider version of global variable.
 */
 
 // so guys here is from my side for a simple discussion of variables and keywords in C language. Thanks!
-
-
-
-
-

@@ -2,10 +2,19 @@
 int main()
 {
 
-    /*
+ /*
     Programming is all about play with various types of data. we have many types of data types for storing data.
     Each variable in C has an associated data type. Each data type requires different amounts of memory and has some specific operations which can be performed over it.
-    */
+    
+   Type of Data type
+   Basic Data Type >	int, char, float, double;
+
+   Derived Data Type >	array, pointer, structure, union;
+
+   Enumeration Data Type>	enum;
+
+   Void Data Type>	void;
+*/
 
     int a = 65;
     char b = 'S';
