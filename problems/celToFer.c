@@ -10,6 +10,6 @@ int main()
     scanf("%f", &celsius);
     // called function to convert celsius to fahrenheit
     fahrenheit = convertCelToFahrenheit(celsius);
-    printf("%.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);
+    printf("%.2f  Celsius = %.2f Fahrenheit", celsius, fahrenheit);
     return 0;
 }
