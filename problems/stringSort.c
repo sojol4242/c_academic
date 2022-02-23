@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <string.h>
+#define MAX_ARR_SIZE 20;
+#define MAX_NAME_SIZE 100;
+
 int main()
 {
     int i, j, count;
-    char str[25][25], temp[25];
-    puts("How many strings u are going to enter?: ");
+    char str[MAX_ARR_SIZE][MAX_NAME_SIZE], temp[MAX_NAME_SIZE];
+    puts("How many students name you want to get?\n ");
     scanf("%d", &count);
 
-    puts("Enter Strings one by one: ");
+    puts("Enter students name one by one: \n");
     for (i = 0; i <= count; i++)
     {
         gets(str[i]);
@@ -24,7 +27,7 @@ int main()
             }
         }
     }
-    printf("Order of Sorted Strings:");
+    printf("Order of Sorted Students:");
     for (i = 0; i <= count; i++)
     {
         puts(str[i]);
