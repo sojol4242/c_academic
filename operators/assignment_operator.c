@@ -22,17 +22,18 @@ int main()
 
     // complex examples
 
-    int x = 7;
- 
-    x ^= 5;
-   
-    x += 3;
-  
+    int x = 17;
+
+    x ^= 15;
 
     printf("a= %d\n", a);
     printf("b= %f\n", b);
 
-    printf("%d", printf("%d", x));
+    printf("%d", printf("%d", x += 3));
+    printf("\n");
+    char f = 7;
+    f ^= 5;
+    printf("%d", printf("%d", f += 3));
 
     return 0;
 }

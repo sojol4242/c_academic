@@ -49,7 +49,7 @@ void sortString(char str[], int count)
 // output function
 void output(char str[], int count)
 {
-    printf("Order of Sorted Students: ");
+    printf("Order of Sorted names: ");
     for (int i = 0; i <= count; i++)
     {
         puts(str[i]);
