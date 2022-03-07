@@ -2,11 +2,11 @@
 #include <string.h>
 #define MAX_ARR_SIZE 30
 #define MAX_NAME_SIZE 100
-
+// function definition
 void nameInput();
 void sortString();
 void output();
-
+// main function
 int main()
 {
     int count;
