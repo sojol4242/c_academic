@@ -29,109 +29,78 @@ In switch I gave an expression, you can give variable also. I gave num+2, where 
 Break statement in Switch Case:
 Break statements are useful when you want your program-flow to come out of the switch body. Whenever a break statement is encountered in the switch body, the control comes out of the switch case statement.
 */
-int main(){
+// int main()
+// {
 
-  char selection;
-  int quantity, total;
+//   char selection;
+//   int quantity, total;
+//   int vat = 30;
 
-  printf("B=BURGER\nF=FRENCH FRY\nP=PIZZA\nS=SANDWICHES or select any character for nothing\n");
-  printf("Select Your Snacks\n");
-  scanf("%c", &selection);
-  printf("Quantity(In integer number) \n");
-  scanf("%d", &quantity);
+//   printf("B=BURGER\nF=FRENCH FRY\nP=PIZZA\nS=SANDWICHES or select any character for nothing\n");
+//   printf("Select Your Snacks\n");
+//   // scanf("%c", &selection);
+//   selection = getchar();
+//   printf("Quantity(In integer number) \n");
+//   scanf("%d", &quantity);
 
-  switch (selection)
+//   switch (selection)
+//   {
+//   case 'B':
+//   case 'b':
+//     printf("Your Select Food is %c = Burger\n", selection);
+//     printf("Single price 230\n");
+//     printf("Quantity %d\n", quantity);
+//     total = quantity * 230 + vat;
+//     printf("Total %d", total);
+//     break;
+//   case 'F':
+//   case 'f':
+//     printf("Your Select Food is %c = French Fries\n", selection);
+//     printf("Single price 43\n");
+//     printf("Quantity %d\n", quantity);
+//     total = quantity * 43 + vat;
+//     printf("Total %d", total);
+//     break;
+//   case 'P':
+//   case 'p':
+//     printf("Your Select Food is %c = Pizza\n", selection);
+//     printf("Single price 450\n");
+//     printf("Quantity %d\n", quantity);
+//     total = quantity * 450 + vat;
+//     printf("Total %d", total);
+//     break;
+//   case 'S':
+//   case 's':
+//     printf("Your Select Food is %c=SANDWICHES\n", selection);
+//     printf("Single price 130\n");
+//     printf("Quantity %d\n", quantity);
+//     total = quantity * 130 + vat;
+//     printf("Total %d", total);
+//     break;
+//   default:
+//     printf("None of this\n please select some snacks");
+//   }
+
+//   return 0;
+// }
+int main(int argc, char const *argv[])
+
+{
+  int x = printf("HELLO..");
+  switch (x)
   {
-  case 'B':
-    printf("Your Select Food is %c = Burger\n", selection);
-    printf("Single price 230\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 230;
-    printf("Total %d", total);
+  case 6:
+    printf("Case1: Value is: 6");
     break;
-  case 'F':
-    printf("Your Select Food is %c = French Fries\n", selection);
-    printf("Single price 43\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 43;
-    printf("Total %d", total);
+  case 7:
+    printf("Case1: Value is: 7\n");
+
     break;
-  case 'P':
-    printf("Your Select Food is %c = Pizza\n", selection);
-    printf("Single price 450\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 450;
-    printf("Total %d", total);
+  case 8:
+    printf("Case1: Value is: 8");
     break;
-  case 'S':
-    printf("Your Select Food is %c=SANDWICHES\n", selection);
-    printf("Single price 130\n");
-    printf("Quantity %d\n", quantity);
-    total = quantity * 130;
-     printf("Total %d", total);
-    break;
+
   default:
-    printf("None of this\n please select some snacks");
+    break;
   }
-
-  return 0;
 }
-  // float a,b;
-  // char op;
-  // printf("Enter operator you want like (+, -, *, /):\n");
-  // scanf("%c",&op);
-  // printf("Enter a \n");
-  // scanf("%f",&a);
-  // printf("Enter b \n");
-  // scanf("%f",&b);
-
-  //     switch(op){
-  //     case '+':
-  //          printf("Result is \n");
-  //         printf("%.2f+%.2f=%.2f",a,b,a+b);
-  //         break;
-  //     case '-':
-  //          printf("Result is \n");
-  //         printf("%.2f-%.2f=%.2f",a,b,a-b);
-  //         break;
-  //     case '*':
-  //          printf("Result is \n");
-  //         printf("%.2f*%.2f=%.2f",a,b,a*b);
-  //         break;
-  //     case '/':
-  //         printf("Result is \n");
-  //         printf("%f/%f=%.2f",a,b,a/b);
-  //         break;
-
-  //     default : printf("Invalid Input");
-
-  // }
-
-  // printf(“B=BURGER\nF=FRENCH FRY\nP=PIZZA\n S=SANDWICHES\n”);
-
-  // char ss;
-  // int n,x;
-  // scanf(“%c”,&ss);
-
-  // switch(ss)
-  // {
-  // case ‘B’:
-  // scanf(“%d”,&n);
-  // x= n*200;
-  // printf(“Burger=Rs %d”,x);
-
-  // case ‘F’:
-  // scanf(“%d”,&n);
-  // x= n*50;
-  // printf(“Burger=Rs %d”,x);
-
-  // case ‘P’:
-  // scanf(“%d”,&n);
-  // x= n*500;
-  // printf(“Burger=Rs %d”,x);
-
-  // case ‘S’:
-  // scanf(“%d”,&n);
-  // x= n*150;
-  // printf(“Burger=Rs %d”,x);
-  // }
