@@ -1,8 +1,8 @@
 
 #include <stdio.h>
 #include <string.h>
-// void stringInput(char str[]);
-// void stringSorter(char str[]);
+void stringInput();
+void stringSorter();
 void main()
 {
     char str[150];
