@@ -1,30 +1,32 @@
 #include <stdio.h>;
 #include <math.h>;
 // declaration of function printLn
-void printLn(char ch, int lenght);
+void printLn(char ch, int length);
 // declaration of function distance
-void distance(int a, int b, int c,int d);
-
+void distance(int a, int b, int c, int d);
 
 // definition of function distance
-void distance(int a, int b,int c,int d){
-int lenght=(a-c)*(a-c)+(b-d)*(b-d);
- double result= sqrt(lenght);
-  printf("Distance= %.2lf\n",result);
-
+void distance(int a, int b, int c, int d)
+{
+    int length = (a - c) * (a - c) + (b - d) * (b - d);
+    double result = sqrt(length); // length = argument
+    printf("Distance= %.2lf\n", result);
 }
 
 // definition of function printLn
-void printLn(char ch, int lenght){
-    for(int i=0;i<lenght;i++){
-        printf("%c",ch);
+void printLn(char ch, int length)
+{ // length = argument
+    for (int i = 0; i < length; i++)
+    {
+        printf("%c", ch);
     }
-        printf("\n");
+    printf("\n");
 }
 
 // driver function
-int main(){
-    int x1,x2, y1, y2;
+int main()
+{
+    int x1, x2, y1, y2;
     // take input from user;
     printf("Enter x1= ");
     scanf("%d", &x1);
@@ -36,13 +38,13 @@ int main(){
     scanf("%d", &y2);
 
     // call the printLn function;
-    printLn('*',30);
+    printLn('*', 30);
     printf("Distance between two point \n");
     // call the printLn function;
-    printLn('-',30);
+    printLn('-', 30);
     // call the distance function;
-    distance(x1,x2,y1,y2);
+    distance(x1, x2, y1, y2);
     // call the printLn function;
-    printLn('*',30);
+    printLn('*', 30);
     return 0;
 }
