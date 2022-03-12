@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
 Pointers are powerful features of C and C++ programming. Before we learn pointers, let's learn about addresses in C programming.
 
@@ -35,35 +36,59 @@ c = 5;
 pc = &c;
 Here, 5 is assigned to the c variable. And, the address of c is assigned to the pc pointer.
 */
-#include <stdio.h>
+void square(int *n);
+void swapToNumber(int *a, int *b);
+
 int main()
 {
-  int var = 5;
+  int var = 53;
+  int *ptr = &var;
+  int value_of_address = *ptr;
   printf("var: %d\n", var);
-
-  // Notice the use of & before var
   printf("address of var: %d\n", &var);
-  //Here, the address of c is assigned to the pc pointer. To get the value stored in that address, we used *pc.
-      int x, y,*ptr;
-      x=10;
-      ptr=&x;
-      y=*ptr;
+  // Notice the use of & before var
+  printf("The %d is stored now at %d\n", value_of_address, &value_of_address);
+  // Here, the address of c is assigned to the pc pointer. To get the value stored in that address, we used *pc.
+  // int x, y, *ptr;
+  // x = 10;
+  // ptr = &x;
+  // y = *ptr;
 
-     printf("address of %d is: %u\n",x, &x);
-     printf("address of %d is: %u\n",*&x, &x);
-     printf("address of %d is: %u\n",*ptr,ptr);
-       printf("address of %d is: %u\n",ptr,&ptr);
-     printf("address of %d is: %u\n",y,&y);
-     *ptr=25;
-          printf("\n Now x= %d \n",x);
+  // printf("address of %d is: %u\n", x, &x);
+  // printf("address of %d is: %u\n", *&x, &x);
+  // printf("address of %d is: %u\n", *ptr, ptr);
+  // printf("address of %d is: %u\n", ptr, &ptr);
+  // printf("address of %d is: %u\n", y, &y);
+  // *ptr = 25;
+  // printf("\n Now x= %d \n", x);
+
+  // pointer to pointer
+  float price = 100.00;
+  float *ptr1 = &price;
+  float **pptr1 = &ptr1;
+  printf("%f\n", **pptr1);
+  int number = 10;
+  square(&number);
+  printf("%d\n", number);
+
+  int a = 10, b = 20;
+  printf("Before swap %d \t %d \n", a, b);
+  swapToNumber(&a, &b);
+  printf("After swap %d \t %d \n", a, b);
 
   return 0;
-#include <stdio.h>
-/*
-pointer
-*/
-int main(int argc, char const *argv[])
+}
+// call by reference
+void square(int *n)
 {
-    /* code */
-    return 0;
+  *n = (*n) * (*n);
+  printf("%d\n", *n);
+}
+// swap to number
+void swapToNumber(int *a, int *b)
+{
+  int t;
+  t = *a;
+  *a = *b;
+  *b = t;
 }
