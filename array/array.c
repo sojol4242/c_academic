@@ -1,5 +1,6 @@
 #include <stdio.h>
-// Array is a basic data structure for storing data in one dimension to two dimension. 👇
+#define MAXSIZE 15
+// Array is a basic data structure for storing data in one dimension and two dimension. 👇
 
 /* state: Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc. ...The array is the simplest data structure where each data element can be randomly accessed by using its index number. C array is beneficial if you have to store similar elements.
 There are some types of arrays exists:
@@ -33,12 +34,12 @@ printf("%d",mark[2]); // array index start with 0 ;
 int main(){
 int arr[]={1,2,3,5}; // size of array is 4
 int i;
-// if we want access 3 you should follow below code.
+if we want access 3 you should follow below code.
 
 printf("How to access single array element: \n");
 printf("%d\n",arr[2]); // output 3
 
-// if we want access all array elements we can do it through loops;
+if we want access all array elements we can do it through loops;
 printf("How to access all array element: \n");
  for(i = 0; i <=3; ++i){
       printf("%d \n",arr[i]);
@@ -47,39 +48,73 @@ printf("How to access all array element: \n");
 }
 */
 //    example;
-/*
+#include <stdio.h>
+int takeInput(int n);
+void mTable(int arr[10][3], int mul, int n);
 int main()
 {
-    int marks[10], i, n, sum = 0;
-    float  average,total;
 
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
+    int arr[10][3], n = takeInput(n), mul = 1;
 
-    for (i = 0; i < n; ++i)
-    {
-        printf("Enter Subject Number %d: \n", i + 1);
-        scanf("%d", &marks[i]);
-
-        adding integers entered by the user to the sum variable
-        sum += marks[i];
-
-    }
-
-    average = sum / n;
-    total=n*100;
-    float per=(sum/total )*100;
-
-    printf("Total Mark = %f\n", sum);
-    printf("Your Average Mark= %f\n", average);
-    printf("You Got %.3f percentage\n", per);
-
-}
-*/
-#include <math.h>
-#define MAXSIZE 100;
-int main(int argc, char const *argv[])
-{
-    printf("Hello World");
+    printf("Table of %d\n", n);
+    mTable(arr, mul, n);
     return 0;
 }
+
+// multidimensional array
+// Multiplication-table making
+
+void mTable(int arr[10][3], int mul, int n)
+{
+    for (int i = 0; i <= 9; i++)
+    {
+        arr[i][0] = mul++;
+        arr[i][1] = n;
+        arr[i][2] = arr[i][0] * arr[i][1];
+        printf("%d X %d = %d\n", arr[i][0], arr[i][1], arr[i][2]);
+    }
+}
+int takeInput(int n)
+{
+    printf("Which Multiplication Table you want to :)\n");
+    scanf("%d", &n);
+    printf("%d\n", n);
+    return n;
+}
+// int marks[MAXSIZE];
+// float average = 0;
+// int i, n, sum = 0;
+// printf("Enter number of elements: ");
+// scanf("%d", &n);
+
+// for (i = 0; i < n; i++)
+// {
+//     printf("Enter Subject Number %d: \n", i + 1);
+//     scanf("%d", &marks[i]);
+// }
+// printf("Marks \n");
+// for (int i = 0; i < n; i++)
+// {
+
+//     printf("%d\n", marks[i]);
+// }
+// for (int i = 0; i < n; i++)
+// {
+
+// adding integers entered by the user to the sum variable
+//     sum += marks[i];
+// }
+
+// average = sum / n;
+
+// printf("Total Mark = %d\n", sum);
+// printf("Your Average Mark= %.2f\n", average);
+
+// pointer arithmetic
+// int age = 22;
+// int *ptr = &age;
+// printf("ptr =%u\n", ptr);
+// ptr++;
+// printf("ptr =%u\n", ptr);
+// ptr--;
+// printf("ptr =%u\n", ptr);
