@@ -3,11 +3,9 @@
 #define MAX_ARR_SIZE 30
 #define MAX_NAME_SIZE 100
 // function definition
-void nameInput(char *str[], int count);
-void sortString(char *str[], int count);
-void output(char *str[], int count);
-// void sortString();
-// void output();
+
+void sortString();
+void output();
 // main function
 int main()
 {
@@ -17,8 +15,6 @@ int main()
     scanf("%d", &count);
 
     // nameInput(str, count);
-    // sortString(str, count);
-    // output(str, count);
 
     puts("Enter name one by one:");
     for (int i = 0; i <= count; i++)
@@ -26,6 +22,12 @@ int main()
         scanf("%s", str[i]);
         // gets(str);
     }
+    sortString(str, count);
+    output(str, count);
+    return 0;
+}
+void sortString(char str[][MAX_NAME_SIZE], int count)
+{
     char temp[MAX_NAME_SIZE];
     for (int i = 0; i <= count; i++)
     {
@@ -39,12 +41,14 @@ int main()
             }
         }
     }
-    printf("Order of Sorted names: ");
+}
+void output(char str[][MAX_NAME_SIZE], int count)
+{
+    printf("Order of Sorted names: \n");
     for (int i = 0; i <= count; i++)
     {
 
         // puts(str);
-        printf("%s  ", str[i]);
+        printf("%s\n", str[i]);
     }
-    return 0;
 }
