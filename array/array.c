@@ -51,13 +51,16 @@ printf("How to access all array element: \n");
 #include <stdio.h>
 int takeInput(int n);
 void mTable(int arr[10][3], int mul, int n);
+void repeatedDigit();
 int main()
 {
 
-    int arr[10][3], n = takeInput(n), mul = 1;
+    // int arr[10][3], mul = 1;
+    // int n = takeInput(n);
+    // printf("Table of %d\n", n);
+    // mTable(arr, mul, n);
+    repeatedDigit();
 
-    printf("Table of %d\n", n);
-    mTable(arr, mul, n);
     return 0;
 }
 
@@ -118,3 +121,12 @@ int takeInput(int n)
 // printf("ptr =%u\n", ptr);
 // ptr--;
 // printf("ptr =%u\n", ptr);
+// function for repeatedDigit;
+
+void repeatedDigit()
+{
+
+    int n;
+    scanf("%d", n);
+    printf("%d\n", n);
+}
