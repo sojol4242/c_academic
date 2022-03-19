@@ -4,6 +4,7 @@
 int linearSearch(int a[], int searchItem, int size);
 int peakElement();
 void minmax(int arr[], int n);
+void array(int arr[], int n);
 int main()
 {
 
@@ -21,10 +22,10 @@ int main()
     // scanf("%d", &searchItem);
 
     // linearSearch(arr, searchItem, size);
-    int peak = peakElement(arr, size);
-    printf("Max value in %d position\n", peak);
-    minmax(arr, size);
-
+    // int peak = peakElement(arr, size);
+    // printf("Max value in %d position\n", peak);
+    // minmax(arr, size);
+    array(arr, size);
     return 0;
 }
 
@@ -84,4 +85,30 @@ void minmax(int arr[], int n)
     }
 
     printf("min = %d, max=  %d", min, max);
+}
+
+void array(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (i == 0)
+        {
+
+            printf("%d is 1st element in %dth index\n", arr[i], i);
+        }
+        else if (i == 1)
+        {
+
+            printf("%d is 2nd element in %dth index\n", arr[i], i);
+        }
+        else if (i == 2)
+        {
+
+            printf("%d is 3rd element in %dth index\n", arr[i], i);
+        }
+        else
+        {
+            printf("%d is %dth element in %dth index\n", arr[i], (i + 1), i);
+        }
+    }
 }
