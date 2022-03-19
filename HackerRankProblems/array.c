@@ -6,19 +6,32 @@
 int main()
 {
 
-    int n;
+    // int n;
 
-    scanf("%d", &n);
-    int arr[n], sum = 0;
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
-    for (int i = 0; i < n; i++)
-    {
-        sum += arr[i];
-    }
-    printf("%d", sum);
+    // scanf("%d", &n);
+    // int arr[n], sum = 0;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     scanf("%d", &arr[i]);
+    // }
+    // for (int i = 0; i < n; i++)
+    // {
+    //     sum += arr[i];
+    // }
+    // printf("%d", sum);
+    // int arr[5] = {1112, 7112, 388, 3444, 5};
+    // int max = arr[0];
+    // int max_index;
+    // for (int i = 0; i < 5; i++)
+    // {
+
+    //     if (max < arr[i])
+    //     {
+    //         max = arr[i];
+    //         max_index = i;
+    //     }
+    // }
+    // printf("%d", max_index);
     return 0;
 }
 // There is a secret string which is unknown to you. Given a collection of random triplets from the string, recover the original string.
