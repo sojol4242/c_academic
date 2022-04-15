@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define infinite while (1)
+
 /*
 C for Loop
 In this tutorial, you will learn to create for loop in C programming with the help of examples.
@@ -70,25 +72,21 @@ Again the test expression is evaluated.
 int main()
 {
 
-   char c;
-   printf("Capital letter \n");
-   for (int i = 65; i < 123; i++)
-   {
-      if (i >= 65 && i <= 92)
-      {
-
-         printf("%c \t", i);
-      }
-      else if (i >= 97 && i <= 123)
-      {
-         printf("%c \t", i);
-      }
-   }
-   printf("\n");
-   //  printf("Small letter \n");
-   // for (int i = 97; i < 123; i++)
+   // char c;
+   // printf("Capital letter \n");
+   // for (int i = 65; i < 123; i++)
    // {
+   //    if (i >= 65 && i <= 90)
+   //    {
 
+   //       printf("%c\t", i);
+   //    }
+
+   //    else if (i >= 97 && i <= 123)
+   //    {
+   //       printf("%c\t", i);
+   //    }
    // }
-   return 0;
+
+    return 0;
 }

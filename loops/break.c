@@ -7,18 +7,17 @@ int main()
 
     // printf("Your value %d is invalid \n", n);
 
-    // while (n != 0)
-    // {
-    //     if (n < 0)
-    //     {
-    //         printf("Your value %d is invalid \n", n);
-    //         break;
-    //     }
+    while (1)
+    {
+        if (n < 0 || n == 0)
+        {
+            printf("Your value %d is invalid \n", n);
+            break;
+        }
 
-    //     printf("Enter a integer value \n");
-    //     scanf("%d", &n);
-    //     printf("Your Value \n", n);
-    // }
+        printf("Enter a integer value \n");
+        scanf("%d", &n);
+    }
 
     for (int i = 1; i <= n; i++)
     {
