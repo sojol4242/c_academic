@@ -1,16 +1,40 @@
+
 #include <stdio.h>
+#define COLMAX 10
+#define ROWMAX 20
+
 int main()
 {
-    // int i;
-    // scanf("%d", i);
+    // int m = 1, n = 0;
     // do
     // {
-    //     printf("%d \n", i * 10);
-    //     i++;
-    // } while (i <= 10);
+
+    //     printf(m);
+
+    //     m++;
+
+    // } while (m <= n);
+
+    // printf("%d", m);
+    /***********Multiplication Table*************/
+    int row, col, y;
+    row = 1;
     do
     {
-        // statement
-    } while (1);
+        col = 1;
+        do
+        {
+            y = row * col;
+            printf("%5d", y);
+            col++;
+        } while (col <= COLMAX);
+        printf("\n");
+        row++;
+    } while (row <= ROWMAX);
+
     return 0;
 }
+// do
+// {
+// statement
+// } while (1);

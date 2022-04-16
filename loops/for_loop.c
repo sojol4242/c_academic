@@ -72,21 +72,28 @@ Again the test expression is evaluated.
 int main()
 {
 
-   // char c;
-   // printf("Capital letter \n");
-   // for (int i = 65; i < 123; i++)
-   // {
-   //    if (i >= 65 && i <= 90)
-   //    {
+    // char c;
+    // printf("Capital letter \n");
+    // for (int i = 65; i < 123; i++)
+    // {
+    //    if (i >= 65 && i <= 90)
+    //    {
 
-   //       printf("%c\t", i);
-   //    }
+    //       printf("%c\t", i);
+    //    }
 
-   //    else if (i >= 97 && i <= 123)
-   //    {
-   //       printf("%c\t", i);
-   //    }
-   // }
+    //    else if (i >= 97 && i <= 123)
+    //    {
+    //       printf("%c\t", i);
+    //    }
+    // }
+
+    int n = 0;
+    int m = 1;
+    for (m = 0; m <= n + 1; m++)
+    {
+        printf(m);
+    }
 
     return 0;
 }
