@@ -7,7 +7,7 @@ int countVowels(char str[]);
 int main()
 {
     // char ch[20] = "MD Moniruzzaman";
-    // char ch2[20] = "Mojol";
+    // char ch2[20] = "Sojol";
 
     // printf("%s is a copy of string\n", strcpy(ch, ch2));
 
@@ -26,7 +26,8 @@ int main()
     // printf("Your String is %s", str);
 
     // puts(ch2);
-    // password salting
+
+        // password salting
     char password[100];
     printf("Enter Password:\n");
 
@@ -92,7 +93,7 @@ void slice(char str[], int n, int m)
         newStr[j] = str[i];
     }
     newStr[j] = '\0';
-    printf("Sliced String\n");
+    printf("Sliced String \n");
     puts(newStr);
 }
 int countVowels(char str[])
