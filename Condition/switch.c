@@ -83,24 +83,52 @@ Break statements are useful when you want your program-flow to come out of the s
 
 //   return 0;
 // }
+// int main(int argc, char const *argv[])
+
+// {
+//   int x = printf("HELLO..");
+//   switch (x)
+//   {
+//   case 6:
+//     printf("Case1: Value is: 6");
+//     break;
+//   case 7:
+//     printf("Case1: Value is: 7\n");
+
+//     break;
+//   case 8:
+//     printf("Case1: Value is: 8");
+//     break;
+
+//   default:
+//     break;
+//   }
+// }
 int main(int argc, char const *argv[])
 
 {
-  int x = printf("HELLO..");
+  int marks;
+  scanf("%d", &marks);
+  int x = marks / 10;
+  // printf("%d\n", x);
   switch (x)
   {
-  case 6:
-    printf("Case1: Value is: 6");
-    break;
+  case 10:
+  case 9:
+  case 8:
   case 7:
-    printf("Case1: Value is: 7\n");
+    printf("Grade A");
+    break;
+  case 6:
+    printf("Grade B");
 
     break;
-  case 8:
-    printf("Case1: Value is: 8");
+  case 5:
+    printf("Grade c");
+
     break;
 
   default:
-    break;
+    printf("Marks not valid");
   }
 }
