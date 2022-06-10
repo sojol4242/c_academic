@@ -36,15 +36,21 @@ int main()
     // while (--count > 0)
 
     //     printf("%d \n", count);
-    int n = 0,m=1;
+    // int n = 0,m=1;
+    // do
+    // {
+    //     printf("%d",m);
+    //     m++;
+
+    // } while (m <=n);
+    int I = 1;
+    int sum = 0;
     do
     {
-        printf("%d",m);
-        m++;
-
-    } while (m <=n);
-
-    
+        sum = sum + I;
+        I = I + 2;                /* Incrementing */
+    } while (sum < 40 || I < 10); /* Testing */
+    printf("%d %d\n", I, sum);
 
     return 0;
 }

@@ -2,16 +2,23 @@
 
 int main(int argc, char const *argv[])
 {
-    int count = 0, n;
-    float x, y = 1.0;
+    // long int p = 1, n;
+    // double q;
+    // scanf("%d", &n);
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     if (i == 0)
+    //     {
+    //         p = 1;
+    //     }
+    //     else
+    //     {
+    //         p = 2 * p;
+    //         q = 1.0 / (double)p;
+    //     }
 
-    scanf("%f %d", &x, &n);
-
-    while (count <= n)
-    {
-        y = y * x;
-        count++;
-    }
-    printf("x to the power n is : %f\n", y);
+    //     printf("%d %10d %10lf\n", p, i, q);
+    // }
+ 
     return 0;
 }
