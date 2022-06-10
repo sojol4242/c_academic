@@ -61,6 +61,15 @@ code to be executed if all the conditions are false
 //     else{
 //         printf("%d is odd number", number);
 //     }
+//  int m = 5;
+//   if (m < 3)
+//     printf("%d", m + 1);
+//   else if (m < 5)
+//     printf("%d", m + 2);
+//   else if (m < 7)
+//     printf("%d", m + 3);
+//   else
+//     printf("“% d”", m + 4);
 //     return 0;
 // }
 #include <stdio.h>
