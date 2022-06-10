@@ -16,7 +16,7 @@ int main()
 
     // nameInput(str, count);
 
-    puts("Enter name one by one:");
+    puts("Enter name one by one: ");
     for (int i = 0; i <= count; i++)
     {
         scanf("%s", str[i]);

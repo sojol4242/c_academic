@@ -8,11 +8,9 @@ void main()
     char str[150];
 
     stringInput(str);
-
     printf("String is %s \n", str);
-    printf("length is %d \n", strlen(str));
-    stringSorter(str, strlen(str));
-    printf("The sorted string is %s", str);
+    stringSorter(str);
+
     getch();
 }
 
@@ -22,19 +20,24 @@ void stringInput(char str[])
     // scanf("%s", &str);
     gets(str);
 }
-void stringSorter(char str[], int length)
+void stringSorter(char str[])
 {
     char temp_c;
-    for (int i = 0; i <= (length - 2); i++)
+    // Calculating length of string
+    int len = strlen(str);
+
+    // Swapping the characters string if previous is greater later
+    for (int i = 0; i < (len - 1); i++)
     {
-        for (int j = i; j <= (length - 2); j++)
+        for (int j = (i + 1); j < len; j++)
         {
-            if (str[i] > str[j + 1])
+            if (str[i] > str[j])
             {
                 temp_c = str[i];
-                str[i] = str[j + 1];
-                str[j + 1] = temp_c;
+                str[i] = str[j];
+                str[j] = temp_c;
             }
         }
     }
+    printf("Sorted String is %s \n", str);
 }
