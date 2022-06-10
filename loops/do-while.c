@@ -17,20 +17,34 @@ int main()
 
     // printf("%d", m);
     /***********Multiplication Table*************/
-    int row, col, y;
-    row = 1;
+    // int row, col, y;
+    // row = 1;
+    // do
+    // {
+    //     col = 1;
+    //     do
+    //     {
+    //         y = row * col;
+    //         printf("%5d", y);
+    //         col++;
+    //     } while (col <= COLMAX);
+    //     printf("\n");
+    //     row++;
+    // } while (row <= ROWMAX);
+    // int count = 5;
+
+    // while (--count > 0)
+
+    //     printf("%d \n", count);
+    int n = 0,m=1;
     do
     {
-        col = 1;
-        do
-        {
-            y = row * col;
-            printf("%5d", y);
-            col++;
-        } while (col <= COLMAX);
-        printf("\n");
-        row++;
-    } while (row <= ROWMAX);
+        printf("%d",m);
+        m++;
+
+    } while (m <=n);
+
+    
 
     return 0;
 }

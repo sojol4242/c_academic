@@ -19,7 +19,7 @@ The syntax of the for loop is:
 
 for (initializationStatement; testExpression; updateStatement)
 {
-    // statements inside the body of loop
+    statements inside the body of loop
 }
 How for loop works?
 The initialization statement is executed only once.
