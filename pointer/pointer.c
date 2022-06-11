@@ -37,15 +37,16 @@ pc = &c;
 Here, 5 is assigned to the c variable. And, the address of c is assigned to the pc pointer.
 */
 void square(int *n);
-void swapToNumber(int *a, int *b);
+void swapToNumber(int a, int b);
+// void swapToNumberWithTem(int a, int b);
 
 int main()
 {
   int var = 53;
   int *ptr = &var;
   int value_of_address = *ptr;
-  printf("var: %d\n", var);
-  printf("address of var: %d\n", &var);
+
+  printf("var: %d\naddress of var: %d\n", var, &var);
   // Notice the use of & before var
   printf("The %d is stored now at %d\n", value_of_address, &value_of_address);
   // Here, the address of c is assigned to the pc pointer. To get the value stored in that address, we used *pc.
@@ -73,8 +74,8 @@ int main()
 
   int a = 10, b = 20;
   printf("Before swap %d \t %d \n", a, b);
-  swapToNumber(&a, &b);
-  printf("After swap %d \t %d \n", a, b);
+
+  swapToNumber(a, b);
 
   return 0;
 }
@@ -85,10 +86,23 @@ void square(int *n)
   printf("%d\n", *n);
 }
 // swap to number
-void swapToNumber(int *a, int *b)
+void swapToNumber(int a, int b)
 {
-  int t;
-  t = *a;
-  *a = *b;
-  *b = t;
+  //  without temp
+  // int *p1 = &a, *p2 = &b;
+  // *p1 = *p1 + *p2;
+  // *p2 = *p1 - *p2;
+  // *p1 = *p1 - *p2;
+  // with temp
+  // int temp;
+  // temp = b;
+  // b = a;
+  // a= temp;
+  // without temp
+  a = a + b;
+  b = a - b;
+  a = a - b;
+
+  // printf("After swap %d \t %d \n", *p1, *p2);
+  printf("After swap with temp %d \t %d \n", a, b);
 }
