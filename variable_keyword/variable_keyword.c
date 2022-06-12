@@ -28,7 +28,7 @@ every keywords has his own special functionality. everyone has its own character
 
 /*
 👇
- 1.  variable start with alphabate  and underscore
+ 1. variable start with alphabate  and underscore
  2. can't start with digits
  3. it can have alphabate, underscore, digits
  4. variable shouldn't have whitespaces
@@ -37,7 +37,7 @@ every keywords has his own special functionality. everyone has its own character
 
 /*
 
-N.B: one file has one main function. here you can see 3 main file. for learning perpose I used 3 main function for 3 examples. so please when you run your program you should check your main function. 🔏🔏🔏🔏
+N.B: one file has one main function. here you can see 3 main file. for learning purpose I used 3 main function for 3 examples. so please when you run your program you should check your main function. 🔏🔏🔏🔏
 */
 
 // types of variable
