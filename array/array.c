@@ -17,7 +17,7 @@ example: int mark[5];
 
 /*
 initialize an array: int mark[5] = {19, 10, 8, 17, 9};
-Here, we declared an array, mark. And its size is 5.
+Here, we declared an array, mark. And size of this array is 5.
 */
 
 /*
@@ -43,7 +43,7 @@ if we want access all array elements we can do it through loops;
 printf("How to access all array element: \n");
  for(i = 0; i <=3; ++i){
       printf("%d \n",arr[i]);
- }
+ }0
 
 }
 */
