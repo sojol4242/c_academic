@@ -13,15 +13,14 @@ int f()
 // named as x and calls f()
 int g()
 {
-    int x = 20;
-    return f();
+    int x = f();
+    x=20;
+    return x;
 }
 
 int main()
 {
     printf("%d", g());
-    printf("\n");
-    // printf(g());
-    printf("\n");
+     
     return 0;
 }

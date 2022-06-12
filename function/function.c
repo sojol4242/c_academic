@@ -13,10 +13,6 @@ There are the following advantages of C functions.
 /*
 Types of functions:
 👉 Library Functions: They are implemented/ build in functions in c programming. In this section we cannot talk about this type.
-<<<<<<< HEAD
-=======
-
->>>>>>> 72b6674b57718b44fd9b7bdb1134c98d49254e4e
 👉 User Defined Functions: The functions which are created by the C programmer, so that they can use it many times. It reduces the complexity of a big program and optimizes the code.
 
 */
@@ -62,28 +58,36 @@ func(arg1,arg2);(in main function. cause every code is execute on main function)
 #include <stdio.h>
 void printName();              //👈 declaration/prototype of printName function;
 float printPrice(float price); //👈 declaration/prototype of printPrice function;
+void returnMUlti(int x,int y,int *sum,int *sub);
 int main()
 {
     printf("Hello \t");
     printName(); //👈 call the printName function;
-    printf("Enter price \n");
+ 
     float price, finalPrice;
     scanf("%f", &price);
     printf("Without GST: %f\n", price);
     // finalPrice = printPrice(price);
     finalPrice = printPrice(price);
     printf("With GST= %.3f", finalPrice);
+    int x=34,y=90,sum,sub;
+    returnMUlti(x,y,&sum,&sub);
+    printf("\nsum %d\nsub %d\n",sum,sub);
     return 0;
 }
 // 👇 definition of printName function;
 
 void printName()
 {
-    printf("Enter price \n");
+    printf("Enter price Mr. \n");
 }
 float printPrice(float price)
 {
     price = price + 0.15;
 
     return price;
+}
+void returnMUlti(int x,int y,int *sum,int *sub){
+    *sum=x+y;
+    *sub=x-y;
 }
