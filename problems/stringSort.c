@@ -1,9 +1,9 @@
+// Sort string alphabetically(A_Z)
 #include <stdio.h>
 #include <string.h>
 #define MAX_ARR_SIZE 30
 #define MAX_NAME_SIZE 100
 // function definition
-
 void sortString();
 void output();
 // main function
@@ -11,12 +11,11 @@ int main()
 {
     int count;
     char str[MAX_ARR_SIZE][MAX_NAME_SIZE];
-    puts("How many name you want to get?");
+    puts("How many students name you want to get?");
     scanf("%d", &count);
-
     // nameInput(str, count);
 
-    puts("Enter name one by one: ");
+    puts("Enter students name one by one: ");
     for (int i = 0; i <= count; i++)
     {
         scanf("%s", str[i]);

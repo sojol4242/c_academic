@@ -18,14 +18,14 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    // printf("Enter search item \n");
-    // scanf("%d", &searchItem);
+    printf("Enter search item \n");
+    scanf("%d", &searchItem);
 
-    // linearSearch(arr, searchItem, size);
+    linearSearch(arr, searchItem, size);
     // int peak = peakElement(arr, size);
     // printf("Max value in %d position\n", peak);
     // minmax(arr, size);
-    array(arr, size);
+    // array(arr, size);
     return 0;
 }
 
@@ -37,7 +37,7 @@ int linearSearch(int a[], int searchItem, int size)
         if (a[i] == searchItem)
         {
             printf("%d found at position %d\n", a[i], i);
-            return 0;
+           
         }
     }
 

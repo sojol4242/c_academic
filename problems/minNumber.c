@@ -1,28 +1,31 @@
-
 #include <stdio.h>
+#define MAX_SIZE 100
+void takeArrayElements(int arr[], int size);
 int min(int arr[], int size);
 int max(int arr[], int size);
-
-int main(int argc, char const *argv[])
+int main()
 {
 
-    int arr[] = {51,
-                 2,
-                 943,
-                 74,
-                 975,
-                 6,
-                 15, 56, 4, 7, 35, 7};
-
-    int minimum = min(arr, sizeof(arr) / sizeof(arr[0]));
-    int maximum = max(arr, sizeof(arr) / sizeof(arr[0]));
+    int arr[MAX_SIZE];
+    int n;
+    printf("Enter size of the array");
+    scanf("%d", &n);
+    takeArrayElements(arr, n);
+    int minimum = min(arr, n);
+    int maximum = max(arr, n);
     // int len=sizeof(arr) / sizeof(arr[0]);
     // printf("%d\n", len);
     printf("min %d\n", minimum);
     printf("max %d", maximum);
     return 0;
 }
-
+void takeArrayElements(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+}
 int min(int arr[], int size)
 {
     int min = arr[0];
@@ -36,7 +39,7 @@ int min(int arr[], int size)
             minIndex = i;
         }
     }
-    printf("min value holder index %d\n", minIndex);
+    // printf("min value holder index %d\n", minIndex);
     return min;
 }
 int max(int arr[], int size)
@@ -53,7 +56,7 @@ int max(int arr[], int size)
             maxIndex = i;
         }
     }
-    printf("max value holder index %d\n", maxIndex);
+    // printf("max value holder index %d\n", maxIndex);
 
     return max;
 }
