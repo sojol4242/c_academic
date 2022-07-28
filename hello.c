@@ -1,50 +1,48 @@
-// standard input output function  > doc section;
+// Assignment 1 : A program using string, 2D array and function;
 
-#include <stdio.h> // link section
+/*
+definition section
+*/
+// link section
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#define MAX_ARR_SIZE 30
+#define MAX_NAME_SIZE 100
 
-// definition section
+// global declaration section
 
-// global declaration part
+void takeInput(char name[][MAX_NAME_SIZE], int n);
+void showOutput(char name[][MAX_NAME_SIZE], int n);
 
-// hello.c> hello.s>hello.i>hello.exe
-
+// main section 
 int main()
-// main function. All programme runs here
 {
-    printf("Hello C Programme\nWelcome to Dept of EEE \n");
 
-    // int n;
-    // scanf("%d", &n);
-
-    // printf("%d", n++);
- 
-
-    return 0; // 0=successfully run, 1= unsuccessfully run
+    int n;
+    printf("Enter the range: ");
+    scanf("%d", &n);
+    char name[MAX_ARR_SIZE][MAX_NAME_SIZE];
+    printf("Enter %d names:\n", n);
+    takeInput(name, n);
+    printf("\nEntered names are:\n");
+    showOutput(name, n);
+    return 0;
 }
 
-// sub programme section
+// user define function or subsection
 
-// Header files
-/*
-1	stdio.h
-Input/Output functions
-2	conio.h
-Console Input/Output functions
-3	stdlib.h
-General utility functions
-4	math.h
-Mathematics functions
-5	string.h
-String functions
-6	ctype.h
-Character handling functions
-7	time.h
-Date and time functions
-8	float.h
-Limits of float types
-9	limits.h
-Size of basic types
-10	wctype.h
-Functions to determine the type contained in wide character data.
+// take input from user
+void takeInput(char name[][MAX_NAME_SIZE], int n)
+{
+    for (int i = 0; i < n; i++)
+        scanf("%s[^\n]", name[i]);
+}
+// displaying names
+void showOutput(char name[][MAX_NAME_SIZE], int n)
+{
 
-*/
+    for (int i = 0; i < n; i++)
+        puts(name[i]);
+}
+
