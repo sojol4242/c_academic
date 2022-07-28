@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 int main(int argc, char const *argv[])
 {
     // long int p = 1, n;
@@ -19,6 +19,8 @@ int main(int argc, char const *argv[])
 
     //     printf("%d %10d %10lf\n", p, i, q);
     // }
- 
+    int a = 5, b = 10, c = -6;
+    int x=(a / 2.0 == 0.0 && b / 2.0 != 0.0) || c < 0.0;
+    printf("%d", x);
     return 0;
 }
