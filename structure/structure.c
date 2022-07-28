@@ -25,32 +25,22 @@ struct Person {
 */
 // example code :
 #include <stdio.h>
-#include <string.h>
 // create struct with person1 variable
 struct Person
 {
-    char name[50];
-    int idNo;
-    float salary;
-} person1;
+  char name[50];
+  int age;
+};
 
 int main()
 {
-    // assign value to name of person1
-    // strcpy(person1.name, "Sayam Chowdhury");
-    printf("Enter City name ");
-    scanf("%[^\n]%*c", person1.name);
-    scanf("%s", person1.name);
-    // get input and assign values to other person1 variables
-    printf("Enter Id ");
-    scanf("%d", &person1.idNo);
-    printf("Enter salary ");
-    scanf("%f", &person1.salary);
-    // print struct variables
-
-    printf("ID: %d,\nName: %s,\nSalary:%.2f\n", person1.idNo, person1.name, person1.salary);
-
-    printf("ID: %d,\n Name: %s,\nSalary:%.2f\n", person1.idNo, person1.name, person1.salary);
+  // declare struct variable
+  struct Person person;
+  printf("Enter name\n");
+  scanf("%s",person.name);
+  printf("Enter age\n");
+  scanf("%d",&person.age);
+  printf("Name: %s\nAge: %d\n", person.name, person.age);
 }
 /*
 Why Structure in C:
